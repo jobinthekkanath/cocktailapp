@@ -12,6 +12,7 @@ function LayoutRoutes() {
         <NavBar/>
         <Routes>
             <Route path='/' element={<Home/>} />
+            <Route path='/cocktailapp' element={<Home/>} />
             <Route path='/about' element={<About/>} />
             <Route path='/cocktail/:id' element={<SingleCocktailDetails/>} />
             <Route path='/*' element={<NoDataFound/>} />
